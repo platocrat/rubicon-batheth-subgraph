@@ -1,13 +1,13 @@
 {
-  "name": "rubicon-batheth-subgraph",
+  "name": "rubicon-batheth",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ platocrat/rubicon-batheth-subgraph",
-    "create-local": "graph create --node http://localhost:8020/ rubicon-batheth-subgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ rubicon-batheth-subgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 rubicon-batheth-subgraph"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ platocrat/rubicon-batheth",
+    "create-local": "graph create --node http://localhost:8020/ rubicon-batheth",
+    "remove-local": "graph remove --node http://localhost:8020/ rubicon-batheth",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 rubicon-batheth"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.22.2",

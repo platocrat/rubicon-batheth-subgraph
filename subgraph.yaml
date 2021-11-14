@@ -6,7 +6,7 @@ dataSources:
     name: BathToken
     network: optimism
     source:
-      address: "0x7571CC9895D8E997853B1e0A1521eBd8481aa186"
+      address: "0xB0bE5d911E3BD4Ee2A8706cF1fAc8d767A550497"
       abi: BathToken
     mapping:
       kind: ethereum/events
